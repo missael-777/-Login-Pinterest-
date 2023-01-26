@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/fondo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Arial';
+}
+
+.contenedor-principal{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 480px;
+    height: 690px;
+    margin: 20px auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.icono-pinterest{
+    display: block;
+    background-image: url('img/pinterest.png');
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.titulo{
+    font-size: 32px;
+    text-align: center;
+}
+
+.labels{
+    display: block;
+    font-size: 15px;
+    margin: 20px 10px 10px 93px;
+}
+
+.inputs{
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.recuperar-contraseña{
+    display: block;
+    margin: 10px 85px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.botton-inicios-sesion{
+    display: block;
+    background-color: #d50c22;
+    color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.opcion{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor-inicios-sesion{
+    display: flex;
+    margin: 15px auto;
+    width: 300px;
+    color: white;
+    border-radius: 15px;
+}
+
+.contenedor-facebook{
+    background-color: #1877f2;
+}
+
+.contenedor-google{
+    color: initial;
+    border: 1px solid black;
+}
+
+.iconos-inicios-sesion-externos{
+    width: 50px;
+}
+
+.parrafo-facebook{
+    margin: 15px 10px 0px;
+}
+
+.parrafo-google{
+    margin: 9px 10px 0px;
+}
+
+.contenedor-informacion{
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    color: white;
+    font-size: 11px;
+    color: #8a8a8a;
+}
+
+.informacion{
+    text-align: center;
+}
+
+.links-informacion{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.links-informacion:hover{
+    text-decoration: underline;
+}
+
+.informacion-2{
+    line-height: 2;
+}
